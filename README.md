@@ -52,9 +52,8 @@ A basic simple python program for face recognition using image as a reference
    - `cv2.destroyAllWindows()`: Closes all OpenCV windows.
    - `executor.shutdown()`: Shuts down the thread pool executor.
 
-These comments should help you understand the code more easily. If you have any further questions, feel free to ask!
-##**Fixes**:
+## **Fixes**:
 
--1> Try installing tensorflow first before installing Deepface 
--2> Make sure your reference image is captured in good lighting and proper face is shown , does not recogize if face is shown sideways 
--3> lagging or low performance try increasing the value of "counter % 60" ,here every 60th frame of your webcame is used to match and check with the refernce image 
+- 1> Try installing tensorflow first before installing Deepface 
+- 2> Make sure your reference image is captured in good lighting and proper face is shown , does not recogize if face is shown sideways 
+- 3> lagging or low performance try increasing the value of "counter % 60" ,here every 60th frame of your webcame is used to match and check with the refernce image 
